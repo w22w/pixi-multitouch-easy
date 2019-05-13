@@ -1,0 +1,51 @@
+{
+  "name": "pixi-multitouch-easy",
+  "version": "0.0.1",
+  "description": "Add multitouch support to PIXI.js sprites",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "watch": "babel src --out-dir lib --watch --source-maps inline",
+    "build": "babel src --out-dir lib --source-maps inline",
+    "dev": "webpack-dev-server --devtool cheap-source-map --debug --output-pathinfo --inline --hot --port 8888",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w22w/pixi-multitouch-easy.git"
+  },
+  "keywords": [
+    "pixi.js",
+    "pixijs",
+    "multitouch",
+    "rotation",
+    "pixi"
+  ],
+  "author": {
+    "name": "w22w"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w22w/pixi-multitouch-easy/issues"
+  },
+  "homepage": "https://github.com/w22w/pixi-multitouch-easy#readme",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.15",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-standard": "^4.4.0",
+    "eslint-plugin-standard": "^1.3.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^1.7.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "pixi.js": "^3.0.9"
+  }
+}
